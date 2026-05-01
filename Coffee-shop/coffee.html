@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            background-color:#9b7455;
+        }
+
+        .navigate {
+            margin-left: 1080px;
+            margin-top: -50px;
+            display: flex;
+            gap: 40px;
+        }
+        .navigate a {
+            text-decoration: none;
+        }
+
+        .navigate a:link {
+            color: black;
+        }
+
+        .image-card {
+            margin: 70px -5px 0px -5px ;
+            background-image: url("./main-picture.webp");
+            height: 450px;
+            width: auto;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+           
+        }
+
+        .card-button button {
+            background: rgba(46, 26, 22, 0.7);
+            border: 1px solid white;
+            color: white;
+            padding: 10px 30px;
+            border-radius: 20px;
+            cursor: pointer;
+            margin: 270px 0px 0px 700px;
+        }
+
+        .text {
+           font-size: 30px;
+           color: white;
+           margin-left: 100px;
+           padding-bottom: 50px;
+           font-family: sans-serif;
+        }
+
+      h2, p {
+        margin: 0;
+      }
+
+      
+
+      p {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px; 
+      }
+
+      .top-categories {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: larger;
+      }
+
+      h3, h6 {
+        margin: 0;
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+      }
+
+      .choices {
+       display: flex;
+       justify-content: center;
+       gap: 20px;
+
+      }
+
+      .choice-item {
+        position: relative;
+        width: 500px;
+        overflow: hidden;
+        border-radius: 15px;
+      }
+
+      .choice-item img {
+        height: 350px;
+        width: 400px;
+        display: block;
+        
+      }
+
+      .cards {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: larger;
+      }
+
+       .item img {
+        height: 500px;
+        width: 373px;
+        display: block;
+       }
+
+       .item {
+        position: relative;
+        width: 500px;
+        overflow: hidden;
+        border-radius: 15px;
+      }
+
+      .milkshakes {
+       display: flex;
+       justify-content: center;
+       gap: 20px;
+
+      }
+
+     
+
+    footer {
+    background-color: #2e1a16;
+    padding: 60px 8%;
+    margin-top: 50px;
+    margin-left: -10px;
+    margin-right: -8px;
+    margin-bottom: -10px;
+    color: white;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    padding-top: 40px;
+}
+
+.footer-columns h4 { 
+    margin-bottom: 20px; 
+}
+
+.footer-columns ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-columns li {
+    font-size: 13px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.choice-item span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 14px;
+    backdrop-filter: blur(5px);  
+}
+
+.item span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 14px;
+    backdrop-filter: blur(5px); 
+
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><i class="fa fa-coffee fa-4x"></i></div>
+
+        <nav class="navigate">
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">Blog</a>
+            <a href="#">Media</a>
+            <a href="#">Contact</a>
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+
+        </nav>
+    </header>
+
+    <div class="image-card">
+        
+        <div class="text">
+             <p>Freshly roasted</p>
+             <h2>COFFEE</h2>
+        </div>
+
+        <div class="card-button">
+            <button type="submit">Shop Now</button>
+        </div>
+
+    </div>
+
+    <div class="top-categories">
+        <h3>TOP CATEGORIES</h3>
+        <h6>Explore The Recent Most Bought Drinks This Week</h6>
+    </div>
+
+    <div class="choices">
+        <div class="choice-item">
+            <img src="./hot chocolate.webp">
+            <span>Hot Chocolate</span>
+        </div>
+         <div class="choice-item">
+        <img src="./espresso coffee.webp"><span>Expresso Coffee</span>
+        </div>
+
+         <div class="choice-item">
+        <img src="./mocha coffee.webp"><span>Mocha Coffee</span>
+        </div>
+
+         <div class="choice-item">
+        <img src="./Latte.jpg"><span>Latte Coffee</span>
+        </div>
+
+    </div>
+
+     <div class="cards">
+        <h3>TOP Milk Shakes</h3>
+        <h6>Explore The Recent Most Bought Shakes This Week</h6>
+    </div>
+
+     <div class="milkshakes">
+        <div class="item">
+        <img src="./biscoff-milkshake.jpg">
+        <span>Biscoff Milkshake</span>
+        </div>
+
+        <div class="item">
+        <img src="./salted caramel.jpg">
+        <span>Salted Caramel Milkshake</span>
+        </div>
+
+        <div class="item">
+        <img src="./decadent Chocolate.webp">
+        <span>Decadent Chocolate Milkshake</span>
+        </div>
+
+        <div class="item">
+        <img src="./chocolate-milkshake1.webp">
+        <span>Cholocate Milkshake</span>
+        </div>
+
+    </div>
+
+<footer>
+        <div class="footer-columns">
+            <div class="col">
+                <h4>Products</h4>
+                <ul>
+                    <li>Mocha Coffee</li>
+                    <li>Espresso Coffee</li>
+                    <li>Lata Coffee</li>
+                    <li>Milk Shakes</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4>Category</h4>
+                <ul><li>Men</li></ul>
+            </div>
+            <div class="col">
+                <h4>Company Info</h4>
+                <ul>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Support</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <span><i class="fa-brands fa-square-instagram"></i></span><br>
+                    <span><i class="fa-brands fa-square-facebook"></i></span><br>
+                    <span><i class="fa-brands fa-youtube"></i></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    
+</body>
+</html>
